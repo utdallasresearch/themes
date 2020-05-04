@@ -1,0 +1,83 @@
+/* Global Styles */
+
+html,
+body {
+    font-size: 18px;
+    line-height: 28px;
+    background-size: auto auto;
+    background-position: center;
+}
+
+a {
+  @media(max-width:$screen-xs) {
+    word-wrap: break-word;
+  }
+}
+
+// Defines a row with full-height columns
+.row-full-height {
+  display: flex;
+  flex-wrap: wrap;
+
+  .col-full-height {
+    display: flex;
+    flex-grow: 1;
+    margin-bottom: $grid-gutter-width;
+
+    .col-full-height-content {
+      flex-grow: 1;
+      width: 100%;
+    }
+  }
+}
+
+.page-template-default {
+  .pageTitle {
+    background: $utd-flame-orange;
+    color: white;
+    padding: 6px 30px 6px 30px;
+    @media (max-width: $screen-sm-max) {
+      padding-left: 10px;
+    }
+  }
+  .pageContent {
+    h3 {
+      color: $utd-flame-orange;
+    }
+  }
+}
+
+.page-template-full-width {
+  h1 {
+    background-color: $utd-flame-orange;
+    color: #fff;
+    padding: 10px 30px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .container {
+    margin-bottom: 20px;
+  }
+}
+
+p {
+  margin-bottom: 14px; 
+}
+
+ul, ol {
+  line-height: 1.6em;
+}
+
+ol {
+  @media(max-width:$screen-xs) {
+    padding-left: 0;
+  }
+}
+
+.search-results article {
+  margin-bottom: 50px;
+}
+
+.row.row-full-height:before, .row.row-full-height:after {
+  content: normal;
+}

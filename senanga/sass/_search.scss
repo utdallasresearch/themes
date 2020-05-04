@@ -1,0 +1,31 @@
+.search {
+  .page-header {
+        background-color: white;
+        padding-left: 0;
+  }
+  .site-main {
+    padding: 0 30px;
+  }
+  .entry-footer {
+    margin: 0;
+  }
+  
+}
+
+.error-404 {
+  form {
+    .screen-reader-text {
+      display: none;
+    }
+    .search-submit {
+      color: #fff;
+      background-color: #69be28;
+      padding: 3px 12px;
+    }
+  }
+  .page-header {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}
+

@@ -1,0 +1,42 @@
+.page-template-nosidebar {
+ #menu-no-sidebar {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  li {
+   list-style-type: none;
+   margin-right: 8px;
+   a {
+    color: #008542;
+    font-family: Source Sans;
+    &:hover {
+     text-decoration: none;
+     color: #c75b12;
+    }
+    &:after {
+      content: " | ";
+    }
+   }
+  }
+ }
+ h2 {
+  text-align: center;
+  color: #333;
+  margin-top: 60px;
+  font-weight: bold;
+ }
+ .page-summary {
+    text-align: center;
+   font-size: 24px;
+   font-weight: 400;
+   max-width: 60%;
+   margin: 0 auto 20px;
+ }
+ .group {
+  display: flex;
+ @media(max-width: 600px) {
+  display: inherit;
+ }
+ }
+
+}

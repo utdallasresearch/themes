@@ -1,0 +1,380 @@
+/*======================================================================
+	Wrapper
+----------------------------------------------------------------------*/
+.gform_wrapper{
+	margin-top: 15px;
+}
+
+
+/*======================================================================
+	Body
+----------------------------------------------------------------------*/
+.gform_wrapper form .gform_body ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.gform_wrapper form .gform_body ul li{
+	margin-top:10px;
+	position:relative;
+}
+.gform_wrapper form .gform_body ul li:first-child{
+	margin-top:0px;
+}
+.gform_wrapper form .gform_body ul li h2.gsection_title{
+	font-size:15px;
+	line-height:20px;
+	margin:40px 0px 20px 0px;
+}
+.gform_wrapper form .gform_body ul li label{
+	font-size:15px;
+	color:#82827f;
+	margin-bottom:10px;
+	display:block;
+}
+.gform_wrapper form .gform_body ul li label span{
+	color:#e84e4e;
+	margin-right:5px;
+	display:block;
+	float:left;
+}
+.gform_wrapper form .gform_body ul li div input{
+	background-color:#fff;
+	height:48px;
+	width:100%;
+	padding:0px 15px;
+	border:1px solid #e1e1e0;
+	font-size: 15px;
+}
+.gform_wrapper form .gform_body ul li div select{
+	background-color:#fff;
+	height:48px;
+	width:100%;
+	padding:0px 15px;
+	border:1px solid #e1e1e0;
+	-webkit-appearance: none;
+	font-size: 15px;
+}
+.gform_wrapper .ginput_container_select:before{ 
+	position: absolute; 
+	top: 16px; 
+	right: 20px; 
+	content: '\f107'; 
+	color: #d3ae34; 
+	font-family: 'FontAwesome'; 
+	font-size: 16px; 
+	pointer-events: none; 
+}
+
+.gform_wrapper form .gform_body ul li div textarea{
+	background-color:#fff;
+	line-height:25px;
+	width:100%;
+	height:200px;
+	padding:15px;
+	border:1px solid #e1e1e0;
+	resize:none;
+	font-size: 15px;
+}
+.gform_wrapper form .gform_body ul li div ul.gfield_radio li input:checked:after{
+	content:'\f122';
+	font-family:"Ionicons";
+	font-size:14px;
+	color:#528cdb;
+	line-height:20px;
+	text-align:center;
+	width:20px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.gform_wrapper form .gform_body ul li.gfield_visibility_hidden{
+	display:none;
+}
+.ginput_container_textarea{
+	margin-bottom: -3px;
+}
+
+/*======================================================================
+	Footer
+----------------------------------------------------------------------*/
+.gform_wrapper form .gform_footer{
+	text-align:center;
+	margin-top:10px;
+	clear:both;
+}
+.gform_wrapper form .gform_footer input{
+	background-color:#d3ae34;
+	font-size:12px;
+	font-weight:900;
+	color:#fff;
+	letter-spacing:0.075em;
+	line-height:50px;
+	text-transform:uppercase;
+	padding:0px 30px;
+	border-radius:2px;
+	cursor:pointer;
+	display:inline-block;
+	transition:background-color 150ms ease;
+}
+.gform_wrapper form .gform_footer input:hover{
+	background-color:#d3ae34;
+}
+
+
+/*======================================================================
+	Validation
+----------------------------------------------------------------------*/
+.gform_wrapper form .validation_error{
+	display:none;
+}
+.gform_wrapper form .gform_body ul li.gfield_error:before{
+	content:'\f128';
+	font-family:"Ionicons";
+	font-size:18px;
+	color:#e84e4e;
+	line-height:50px;
+	padding-left:20px;
+	position:absolute;
+	left:0;
+	bottom:0;
+	z-index:999;
+}
+.gform_wrapper form .gform_body ul li.gfield_error input,
+.gform_wrapper form .gform_body ul li.gfield_error select{
+	text-indent:30px;
+}
+.gform_wrapper form .gform_body ul li.gfield_error .validation_message{
+	display:none;
+}
+.gform_wrapper form .gform_footer img.gform_ajax_spinner{
+	display:none;
+}
+
+
+/*======================================================================
+	Confirmation
+----------------------------------------------------------------------*/
+.gform_confirmation_wrapper .gform_confirmation_message{
+	margin-top: 20px;
+	line-height:145%;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	color: #d3ae34;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+
+/*======================================================================
+	Placeholder
+----------------------------------------------------------------------*/
+.gform_wrapper form.placeholder .gform_body ul li label{
+	display:none;
+}
+
+/*======================================================================
+	Specialty
+----------------------------------------------------------------------*/
+.gform_wrapper form .gform_body ul li.gfield_contains_required:after{
+	content: '\f069';
+	font-family: 'FontAwesome';
+	font-size: 16px;
+	position: absolute;
+	right: 20px;
+	top: 13px;
+	color: #d3ae34;
+}
+
+.gform_wrapper form .gform_body ul li.hide{
+	display:none;
+}
+.gform_wrapper form .gform_body ul li.placeholder label{
+	display:none;
+}
+.gform_wrapper form .gform_body ul li.readonly input,
+.gform_wrapper form .gform_body ul li.readonly select,
+.gform_wrapper form .gform_body ul li.readonly textarea{
+	background-color:#f5f5f5;
+	border:0px none;
+	cursor:no-drop;
+}
+.gform_wrapper form .gform_body ul li.dropdown:after{
+	content:'\f104';
+	font-family:"Ionicons";
+	font-size:14px;
+	color:#82827f;
+	line-height:50px;
+	padding-right:15px;
+	position:absolute;
+	right:0;
+	bottom:0;
+}
+
+.gform_wrapper form .gform_body ul li.date .gfield_date_dropdown_month,
+.gform_wrapper form .gform_body ul li.date .gfield_date_dropdown_day,
+.gform_wrapper form .gform_body ul li.date .gfield_date_dropdown_year{
+	width:calc(100% / 3);
+	float:left;
+	position:relative;
+}
+.gform_wrapper form .gform_body ul li.date .gfield_date_dropdown_month:after,
+.gform_wrapper form .gform_body ul li.date .gfield_date_dropdown_day:after,
+.gform_wrapper form .gform_body ul li.date .gfield_date_dropdown_year:after{
+	content:'\f35f';
+	font-family:"Ionicons";
+	font-size:16px;
+	color:#ccc;
+	line-height:50px;
+	margin-right:20px;
+	position:absolute;
+	right:0;
+	bottom:0;
+}
+.gform_wrapper form .gform_body ul li.date .gfield_date_dropdown_day select{
+	border-right:0px none;
+	border-left:0px none;
+}
+
+.gform_wrapper form .gform_body ul li.time .gfield_time_hour,
+.gform_wrapper form .gform_body ul li.time .gfield_time_minute,
+.gform_wrapper form .gform_body ul li.time .gfield_time_ampm{
+	width:calc(100% / 3);
+	float:left;
+	position:relative;
+}
+.gform_wrapper form .gform_body ul li.time .gfield_time_ampm:after{
+	content:'\f35f';
+	font-family:"Ionicons";
+	font-size:16px;
+	color:#ccc;
+	line-height:50px;
+	margin-right:20px;
+	position:absolute;
+	right:0;
+	bottom:0;
+}
+.gform_wrapper form .gform_body ul li.time .gfield_time_minute input{
+	border-right:0px none;
+	border-left:0px none;
+}
+.gform_wrapper form .gform_body ul li.time .ginput_container i,
+.gform_wrapper form .gform_body ul li.time .ginput_container label{
+	display:none;
+}
+
+
+/*======================================================================
+	Dark
+----------------------------------------------------------------------*/
+.gform_wrapper form.dark .gform_body ul li label{
+	color:#fff;
+}
+.gform_wrapper form.dark .gform_body ul li div input{
+	line-height:50px;
+	border:0px none;
+}
+.gform_wrapper form.dark .gform_body ul li div select{
+	line-height:50px;
+	border:0px none;
+}
+.gform_wrapper form.dark .gform_body ul li div textarea{
+	border:0px none;
+}
+.gform_wrapper form.dark .gform_body ul li.gfield_error:before{
+	line-height:50px;
+}
+
+
+/*======================================================================
+	Columned
+----------------------------------------------------------------------*/
+.gform_wrapper form.columned{
+	margin:0px -10px;
+}
+.gform_wrapper form.columned .gform_body ul li.full{
+	width:calc(100% - 20px);
+	clear:left;
+	float:none;
+}
+.gform_wrapper form.columned .gform_footer{
+	margin:0px 10px;
+}
+
+
+/*======================================================================
+	2 Columns
+----------------------------------------------------------------------*/
+.gform_wrapper form.two-columns .gform_body ul li{
+	width:calc(100% / 2 - 20px);
+	margin:0px 10px 20px 10px;
+	float:left;
+}
+
+/*======================================================================
+	3 Columns
+----------------------------------------------------------------------*/
+.gform_wrapper form.three-columns .gform_body ul li{
+	width:calc(100% / 3 - 20px);
+	margin:0px 10px 20px 10px;
+	float:left;
+}
+
+
+/*======================================================================
+    700px
+----------------------------------------------------------------------*/
+@media only screen and (max-width:700px){
+	
+	/*============================================================
+		2 Columns
+	------------------------------------------------------------*/
+	.gform_wrapper form.two-columns .gform_body ul li{
+		width:calc(100% - 20px);
+	}
+	
+	/*============================================================
+		3 Columns
+	------------------------------------------------------------*/
+	.gform_wrapper form.three-columns .gform_body ul li{
+		width:calc(100% / 2 - 20px);
+	}
+}
+
+
+/*======================================================================
+    500px
+----------------------------------------------------------------------*/
+@media only screen and (max-width:700px){
+	
+	/*============================================================
+		3 Columns
+	------------------------------------------------------------*/
+	.gform_wrapper form.three-columns .gform_body ul li{
+		width:calc(100% - 20px);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

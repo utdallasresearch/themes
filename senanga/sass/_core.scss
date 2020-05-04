@@ -1,0 +1,147 @@
+/* Global Styles */
+
+html,
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    height: 100%;
+    color: $text_color;
+    font-size: 16px;
+}
+
+h2, .h2, h3, .h3 {
+    font-family: 'Sarpanch', serif;
+    color: #696969;
+    text-transform: uppercase;
+}
+h1, .h1, h4, .h4 {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+h2,
+.h2 {
+    font-size: 24px;
+    color: #696969;
+}
+
+.page-header {
+    font-family: 'Sarpanch', serif;
+    text-transform: uppercase;
+}
+
+a, a:hover {
+    font-weight: bold;
+    color: #008542;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.noPadd{
+    padding: 0px;
+}
+
+.alignright {
+    float: right;
+    margin: 0 0 1em 1em;
+    @media(max-width:480px) {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.alignleft {
+    float: left;
+    margin: 0 1em 1em 0;
+    @media(max-width:480px) {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    @media(max-width:480px) {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.content {
+    // makes sure the footer is at least at the bottom
+    // of the viewport
+    min-height: calc(100vh - 220px);
+    margin-bottom: 30px;
+}
+
+// Defines a row with full-height columns
+.row-full-height {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-full-height {
+  display: flex;
+  flex-grow: 1;
+  margin-bottom: $grid-gutter-width;
+}
+
+.col-full-height-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 100%; // needed for IE because it's flex-box is quirky
+}
+
+/* 404 Page Styles */
+
+
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+p img {
+    margin-top: 20px;
+    @media(max-width:480px) {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+figure img {
+    margin-bottom: 16px;
+    @media(max-width:480px) {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+figcaption {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+table {
+    @media(max-width:480px) {
+        font-size: 14px;
+    }
+}
+

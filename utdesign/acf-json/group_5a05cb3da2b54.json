@@ -1,0 +1,272 @@
+{
+    "key": "group_5a05cb3da2b54",
+    "title": "Projects",
+    "fields": [
+        {
+            "key": "field_5a05cbf41b6c2",
+            "label": "Sponsor",
+            "name": "sponsor",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5e21ed71ab0c1",
+            "label": "Semester",
+            "name": "semester",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Spring": "Spring",
+                "Summer": "Summer",
+                "Fall": "Fall"
+            },
+            "default_value": [],
+            "allow_null": 1,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5e21ec1a3a9e9",
+            "label": "Year",
+            "name": "year",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "2014": "2014",
+                "2015": "2015",
+                "2016": "2016",
+                "2017": "2017",
+                "2018": "2018",
+                "2019": "2019",
+                "2020": "2020",
+                "2021": "2021",
+                "2022": "2022",
+                "2023": "2023",
+                "2024": "2024",
+                "2025": "2025",
+                "2026": "2026",
+                "2027": "2027",
+                "2028": "2028",
+                "2029": "2029",
+                "2030": "2030"
+            },
+            "default_value": [],
+            "allow_null": 1,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5e21e9df25fbf",
+            "label": "Industry",
+            "name": "industry",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Agribusiness and Energy": "Agribusiness and Energy",
+                "Business and IT Services": "Business and IT Services",
+                "Consumer Products": "Consumer Products",
+                "Defense and Aerospace": "Defense and Aerospace",
+                "Education": "Education",
+                "Electronic Hardware": "Electronic Hardware",
+                "Finance": "Finance",
+                "Health": "Health",
+                "Insurance": "Insurance",
+                "Non-Profits and Activists": "Non-Profits and Activists",
+                "Public Sector": "Public Sector",
+                "Real Estate": "Real Estate",
+                "Telecommunications": "Telecommunications"
+            },
+            "allow_custom": 1,
+            "save_custom": 1,
+            "default_value": [],
+            "layout": "vertical",
+            "toggle": 0,
+            "return_format": "value"
+        },
+        {
+            "key": "field_5e21f0537023b",
+            "label": "Solution",
+            "name": "solution",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Artificial Intelligence": "Artificial Intelligence",
+                "Augmented Reality": "Augmented Reality",
+                "Chatbot": "Chatbot",
+                "Cloud and Internet of Things": "Cloud and Internet of Things",
+                "Computer Vision": "Computer Vision",
+                "Game Development": "Game Development",
+                "Machine Learning": "Machine Learning",
+                "Mobile App": "Mobile App",
+                "Microcontrollers and Embedded Systems": "Microcontrollers and Embedded Systems",
+                "Natural Language Processing": "Natural Language Processing",
+                "Optical Character Recognition": "Optical Character Recognition",
+                "Robotics": "Robotics",
+                "Software Development and Research": "Software Development and Research",
+                "Virtual Reality": "Virtual Reality",
+                "Web Development": "Web Development"
+            },
+            "allow_custom": 1,
+            "save_custom": 1,
+            "default_value": [],
+            "layout": "vertical",
+            "toggle": 0,
+            "return_format": "value"
+        },
+        {
+            "key": "field_5a05cbe51b6c1",
+            "label": "Department",
+            "name": "department",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Bioengineering": "Bioengineering",
+                "Computer Engineering": "Computer Engineering",
+                "Computer Science": "Computer Science",
+                "Electrical Engineering": "Electrical Engineering",
+                "Mechanical Engineering": "Mechanical Engineering"
+            },
+            "allow_custom": 1,
+            "save_custom": 1,
+            "default_value": [],
+            "layout": "vertical",
+            "toggle": 0,
+            "return_format": "value"
+        },
+        {
+            "key": "field_5e21eec9a6bc7",
+            "label": "Award",
+            "name": "award",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Bronze": "Bronze",
+                "Silver": "Silver",
+                "Gold": "Gold"
+            },
+            "default_value": [],
+            "allow_null": 1,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5e21ef3ea6bc8",
+            "label": "National Award",
+            "name": "national_award",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "message": "Project won a national award",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5a05cc121b6c3",
+            "label": "PDF",
+            "name": "pdf",
+            "type": "file",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "project"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1580145534
+}

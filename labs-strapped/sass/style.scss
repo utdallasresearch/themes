@@ -1,0 +1,114 @@
+/*!
+Theme Name: Labs Strapped
+Theme URI: https://research.utdallas.edu/oris
+Author: ORIS
+Author URI: https://research.utdallas.edu/oris
+Description: UTD Research Labs theme based on Bootstrap 3
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: strapped
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Labs Strapped is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+# Variables
+--------------------------------------------------------------*/
+@import "variables";
+
+// Bootstrap
+@import "../../../../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
+
+// Font Awesome
+@import "../../../../../node_modules/font-awesome/scss/font-awesome";
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+  ## Comments
+	## Posts and pages
+	## Captions
+	## Galleries
+# Variables
+# Core Styles
+--------------------------------------------------------------*/
+@import "vars/variables-site";
+@import "mixins/mixins-master";
+
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+@import "modules/accessibility";
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+@import "modules/alignments";
+
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+@import "modules/clearings";
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+@import "site/secondary/widgets";
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+@import "site/site";
+
+
+/*--------------------------------------------------------------
+# Header styles
+--------------------------------------------------------------*/
+@import "header";
+
+/*--------------------------------------------------------------
+# Header styles
+--------------------------------------------------------------*/
+@import "footer";
+/*--------------------------------------------------------------
+# Basic styles
+--------------------------------------------------------------*/
+@import "basics";
+
+/*--------------------------------------------------------------
+# Navigation styles
+--------------------------------------------------------------*/
+@import "navigation";
+
+/*--------------------------------------------------------------
+# Main styles
+--------------------------------------------------------------*/
+@import "core";
+
+/*--------------------------------------------------------------
+# Full width
+--------------------------------------------------------------*/
+@import "full_width";
+
+/*--------------------------------------------------------------
+# No sidebar
+--------------------------------------------------------------*/
+@import "no_sidebar";
+
+

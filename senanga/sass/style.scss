@@ -1,0 +1,36 @@
+/*!
+Theme Name: Senanga
+Author: Senanga, UT Dallas Research Information Systems
+Author URI: https://research.utdallas.edu/oris
+Description: TxACE website converted to wordpress template
+Version: 1.0.4
+License: MIT
+License URI: https://opensource.org/licenses/MIT
+Text Domain: senanga
+Tags: bootstrap
+*/
+
+// Variables
+$fa-font-path: "fonts";
+$sapling-green: #69BE28;
+$warm-gray-2: #D5D2CA;
+$text_color: black;
+
+// Bootstrap
+@import "../../../../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
+// Font Awesome
+@import "../../../../../node_modules/font-awesome/scss/font-awesome";
+
+@import 'core';
+@import 'header';
+@import 'sidebar';
+@import 'tables';
+@import 'footer';
+@import 'homepage';
+@import 'homepage_map';
+@import 'blog_index';
+@import 'posts';
+@import 'pages';
+@import 'events';
+@import 'search';

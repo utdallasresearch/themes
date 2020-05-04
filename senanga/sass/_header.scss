@@ -1,0 +1,179 @@
+/* Navigation */
+
+$header-borders: 1px solid $warm-gray-2;
+
+.senanga-bg {
+  position: relative;
+}
+
+.senanga-bg-overlay {
+  height: 100%;
+  display: block;
+  padding: 50px 0;
+   background: rgba(0, 0, 0, 0.5);
+}
+
+.nav-header {
+  background-color: black;
+
+  .navbar {
+    border: none;
+    border-radius: 0;
+    margin: 0;
+
+    .nav-container {
+      max-width: 1900px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .navbar-toggle {
+
+      .icon-bar {
+        background-color: white;
+      }
+    }
+    .utd_logo {
+      height: 50px;
+    }
+
+    .navbar-brand {
+      float: none;
+      display: flex;
+      padding-right: 0;
+
+      img {
+        max-height: 50px;
+        width: auto;
+      }
+
+      .brandmark {
+        margin-right: 15px;
+      }
+
+      .txace_logo_container, .utd_logo_container {
+        height: 140px;
+        padding: 0 30px;
+        margin-top: -59px;
+        display: flex;
+        align-items: center;
+
+        .txace_logo {
+          max-height: inherit;
+          height: 90px;
+          margin-top: -4px;
+        }
+
+        .utd_logo {
+          max-height: inherit;
+          height: 12px;
+          margin-top: -12px;
+        }
+      }
+    }
+  }
+
+  .navbar-nav > li > a {
+    line-height: 20px;
+    color: #fff;
+  }
+
+  .navbar-collapse {
+    padding-left: 0;
+  }
+}
+
+.nav>li>a {
+  padding: 8px 15px;
+  border-radius: 50px;
+  margin: 2px;
+
+  &:hover {
+    color: black;
+  }
+}
+
+#mainmenu {
+
+  li.current-menu-item a {
+    color: #fff;
+    background-color: $sapling-green;
+  }
+
+  li.current-menu-item a:hover {
+    color: #000;
+  }
+}
+
+@media only screen and (max-width: $screen-sm-max) {
+
+  .nav-header {
+
+    .navbar .navbar-brand {
+      .txace_logo_container, .utd_logo_container {
+        margin-top: -12px;
+        max-height: 50px;
+
+        .txace_logo, .utd_logo {
+          margin-top: inherit;
+          max-height: 50px;
+        }
+      }
+    }
+
+    .navbar-nav > li > a {
+      font-size: 0.8em;
+    }
+  }
+
+}
+
+@media only screen and (max-width: $screen-xs-max) {
+
+  .senanga-bg-overlay {
+    padding: 20px 0;
+  }
+  
+  .utd-navbar-header {
+    display: none;
+  }
+
+  .nav-header {
+    padding-top: 0;
+    padding-bottom: 0;
+
+    .navbar .nav-container {
+      display: block;
+    }
+
+    .navbar-nav > li > a {
+      font-size: 0.8em;
+      padding: 20px;
+    }
+
+    .navbar-collapse {
+      padding-left: inherit;
+
+      &.collapse.in {
+        background-color: black;
+      }
+    }
+  }
+
+  .navbar-nav {
+    margin: 0 -15px;
+  }
+  
+  .navbar {
+    margin-bottom: 10px;
+  }
+
+  .nav > li > a {
+    border-radius: inherit;
+  }
+
+}
+
+#mainmenu li.current-page-ancestor a, .widget_nav_menu li.current-page-ancestor {
+  background-color: #69BE28;
+}

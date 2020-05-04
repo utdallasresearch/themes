@@ -1,0 +1,140 @@
+#search_and_filter_form {
+  margin-top: 50px;
+}
+
+#project_section {
+  padding-top: 50px;
+}
+
+#ActivateSearch {
+	border: 2px solid gray;
+	border-radius: 20px;
+	display: inline-block;
+	padding: 10px 50px 10px 50px;
+	background: white;
+	color: black;
+	position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+
+#ActivateSearch[aria-expanded="true"] {
+  box-shadow: inset 0px 0px 7px 0px rgba(0,0,0,0.25);
+}
+
+#ActivateSearch svg.arrow {
+  display: inline-block;
+  vertical-align: middle;
+  width: 1em;
+  height: 1em;
+}
+
+#ActivateSearch:hover {
+	color: #00743A;
+}
+
+#ActivateSearch:hover svg {
+	fill: #00743A;
+}
+
+#project_count {
+  font-family: 'brandon-grotesque', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+#search_and_filter_container {
+  padding: 40px;
+  border: 2px solid gray;
+  margin: -1.5em 20px 0;
+	display: none;
+}
+
+.search_and_filter_buttons {
+  margin-top: 20px;
+}
+
+#filterSubmitForm, #filterResetForm {
+  display: inline-block;
+  padding: 10px 30px 10px 30px;
+  font-family: 'brandon-grotesque', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+  text-align: center;
+  width: inherit;
+  height: inherit;
+  text-indent: 0;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  #filterSubmitForm, #filterResetForm {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+#filterSubmitForm {
+	color: #fff;
+	background: #008542;
+}
+
+#filterSubmitForm:hover {
+	background: #00743A;
+}
+
+#filterResetForm {
+  border: 3px solid #ccc;
+}
+
+#search_and_filter_form .project_searchbox {
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.project_filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project_filter {
+  padding: 10px 20px;
+  flex-basis: 20%;
+  min-width: 275px;
+}
+
+@media screen and (max-width: 650px) {
+  .project_filter {
+    flex-basis: 100%;
+  }
+}
+
+.project_filter label:not(.checkbox_label) {
+  display: block;
+  font-family: 'brandon-grotesque', sans-serif;
+  font-size: 24px;
+	line-height: 125%;
+	text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.project_filter select {
+  font-family: 'brandon-grotesque', sans-serif;
+  font-size: 18px;
+  width: 100%;
+  background-color: #f0f0f0;
+}
+
+.project_filter input[type="checkbox"], .project_filter .checkbox_label {
+  width: inherit;
+  height: inherit;
+  line-height: 1.75em;
+  margin-bottom: 0;
+}

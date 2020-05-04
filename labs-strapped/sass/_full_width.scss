@@ -1,0 +1,60 @@
+// Full-width template design
+
+body.strapped-full-width {
+
+    .site > .flex-box {
+        max-width: inherit;
+    }
+
+    .banner-constrain {
+        @media(min-width: 1600px) {
+            max-width: 1290px;
+            // shift the banner over so it aligns with the page content
+            // (menu-width + main-width/2 - main-max-width/2)
+            margin-left: calc(16% + 42% - 645px);
+        }
+    }
+
+    #main {
+        max-width: inherit;
+
+        .page-story {
+            max-width: 1290px;
+            margin: auto;
+        }
+    }
+
+    &:not(.page-template-without-title-bar) .midsection {
+        .title-bar {
+            display: flex;
+            justify-content: center;
+            h2 {
+                max-width: 1290px;
+            }
+        }
+
+    }
+
+    .footer-box {
+        max-width: inherit;
+    }
+
+    .story-wrapper, .blog-index-separator {
+        max-width: 1000px;
+    }
+
+    .story-wrapper.has-featured-image {
+        margin-top: -50px;
+    }
+
+    .feat-img-container {
+        img {
+            max-width: 1290px;
+            margin: auto;
+        }
+    }
+
+
+}
+
+

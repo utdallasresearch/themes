@@ -1,0 +1,19 @@
+/*!
+ * Table CSS
+ */
+
+/* Table formatting */
+
+strong {
+    font-weight: bold; 
+}
+
+em {
+    font-style: italic; 
+}
+
+table {
+    @extend .table;
+}   
+
+/* end of table formatting */

@@ -1,0 +1,117 @@
+.nav-menu {
+  margin-bottom: 30px;
+}
+.left-nav {
+  background-color: #ffffff;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 40px;
+  overflow: hidden;
+  .main-navigation {
+    margin: 16px 0;
+    width: 94%;
+
+    ul {
+      margin-left: -36px;
+
+      li {
+        margin-left: -20px;
+        background: $light-gray;
+        padding: 8px 22px 8px 14px;
+        min-height: 44px;
+        border-radius: 0 20px 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        margin-bottom: 10px;
+        a {
+          color: $utd-flame-orange;
+          font-family: $font-main;
+          font-size: 1.8rem;
+          font-weight: 500;
+          margin-left: 24px;
+          line-height: 1.9rem;
+          border-bottom: none;
+          text-align: right;
+          padding-top: 4px;
+          padding-bottom: 4px;
+
+          &:hover {
+            color: $utd-eco-green;
+            text-decoration: none;
+          }
+          @media(max-width:991px) {
+            font-size: 1.4rem;
+            line-height: 1.4rem;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+
+    .submenu-toggle-button {
+      margin-left: 0.5em;
+    }
+
+    ul.sub-menu {
+      max-height: 0;
+      // opacity: 0;
+      overflow: hidden;
+      transition: max-height 0.7s ease-out;
+
+      li:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    li.focus > ul.sub-menu {
+      max-height: 400px;
+      transition: max-height 0.4s ease-out;
+    }
+  }
+
+  .menu-toggle {
+    display: none;
+    position: absolute;
+    top: 24px;
+    right: 5px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    text-shadow: 0 0 1px #777;
+  }
+  @media(max-width:991px) {
+    position: absolute;
+    left: -0.87 * $mobile-menu-width;
+    z-index: 90;
+    top: 0;
+    bottom: 0;
+    padding-top: 80px;
+    width: $mobile-menu-width;
+    transition: left 0.3s ease-in-out;
+
+    // this should match the button.onclick delay in navigation.js
+
+    &[aria-expanded="true"] {
+      left: 0px;
+      z-index: 900;
+      bottom: inherit;
+      min-height: 100%;
+    }
+
+    .menu-toggle {
+      display: inherit;
+      padding: 12px 15px;
+      margin-top: 6px;
+      color: $utd-flame-orange;
+      @media(max-width:480px) {
+        margin-top: -6px;
+      } 
+    }
+
+    .widget-area {
+      padding-top: 20px;
+    }
+
+  }
+}

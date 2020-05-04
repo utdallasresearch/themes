@@ -1,0 +1,20 @@
+/* Pages */
+.page {
+
+  .pageFeaturedImage img {
+      width: 100%;
+      height: auto;
+      border: 5px solid #eee;
+  }
+
+  .pageTitle {
+    position: relative;
+    margin: 30px 0;
+    text-align: left;
+  }
+
+  .pageContent{
+    margin: 30px 0;
+  }
+
+}

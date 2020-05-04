@@ -1,0 +1,43 @@
+/* Posts */
+.single {
+	.postFeaturedImage img {
+	    width: 100%;
+			height: auto;
+	}
+
+	.postHeader {
+		margin-top: 20px;
+		background-color: #eee;
+	}
+
+	.postImage {
+		width: 65%;
+		float: left;
+	}
+
+	.postTitle {
+		position: relative;
+		padding: 30px;
+		text-align: left;
+		margin-top: 20px;
+	}
+
+	.postContent{
+		margin: 50px 30px;
+	}
+
+	@media only screen and (max-width: 768px) {
+		.postHeader {
+			margin: 10px;
+		}
+		.postTitle {
+			padding: 5px 15px 15px 15px;
+			margin-top: 0;
+		}
+	}
+}
+
+// img {
+// 	width: 100%;
+// 	height: auto;
+// }

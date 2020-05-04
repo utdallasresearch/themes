@@ -1,0 +1,23 @@
+/* Pages */
+.page {
+
+  .pageFeaturedImage img {
+      width: 100%;
+      height: auto;
+      border: 5px solid $gray-light2;
+  }
+
+  .pageTitle {
+    position: relative;
+    margin: $grid-gutter-width 0;
+    text-align: left;
+  }
+
+  .pageContent{
+    margin: $grid-gutter-width 0;
+  }
+
+}
+
+
+

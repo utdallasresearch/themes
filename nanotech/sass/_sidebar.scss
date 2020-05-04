@@ -1,0 +1,67 @@
+/* Sidebar */
+
+aside {
+  background: $gray-lighter;
+}
+
+.widget {
+  border-bottom: 3px groove $gray-dark;
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.widget-area {
+	padding: 20px;
+  margin: 30px 0;
+
+	ul {
+		list-style: none;
+		padding: 0px;
+    @extend .list-group;
+	}
+
+	li {
+	@extend .list-group-item;
+    padding: 0;
+	}
+
+	li a {
+    display: block;
+    font-weight: normal;
+    padding: 2px;
+    background-color: $gray-lighter;
+
+    &:hover {
+      background-color: $gray-lightest;
+    }
+  }
+
+  .screen-reader-text {
+    display: none;
+  }
+
+}
+
+.widget_nav_menu li.current-page-ancestor a {
+  color: white;
+}
+
+.widget-title {
+  color: $gray-dark;
+  font-size: 1.5em;
+  font-variant-caps: all-small-caps;
+  font-weight: bold;
+}
+
+.list-group-item, .widget-area li {
+  border: none;
+}
+
+.widget_recent_entries a {
+  margin-bottom: 10px;
+}
+
+.widget_pages {
+  padding-bottom: 14px
+}

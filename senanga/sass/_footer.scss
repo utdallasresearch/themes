@@ -1,0 +1,215 @@
+/* Footer Styles */
+
+footer {
+    margin: 50px 0 0 0;
+}
+
+.footer {
+  padding: 0;
+  color: #000;
+  text-align: center;
+  flex: 1;
+  background-color: #000;
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 40px;
+  }
+  .col-md-8 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .widget {
+    color: #ccc;
+  }
+  a {
+    color: #ccc;
+  }
+  a:hover {
+    color: #fff;
+  }
+}
+
+.menu-footer-menu-container {
+  margin-left: -20px;
+}
+
+#footer-right .widget_nav_menu > div > ul  {
+    list-style-type: none;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+
+    @media(max-width:991px) {
+      margin-left: 40px;
+    }
+
+    @media(max-width:480px) {
+      flex-direction: column;
+      margin-top: -10px;
+    }
+    .sub-menu {
+      list-style-type: none;
+      padding-left: 0;
+      list-style-type: none;
+      text-align: left;
+    li {
+      a {
+        font-weight: normal;
+        font-size: .8em;
+      }
+    }
+  }
+
+  > li {
+    float: left;
+    position: relative;
+    display: block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  > li > a {
+    text-transform: uppercase;
+    font-weight: 700;
+    list-style-type: none;
+    font-size: 1.1em;
+    font-family: 'Sarpanch', serif;
+    pointer-events: none;
+  }
+
+  > li:first-of-type {
+    @media(max-width:480px) {
+      padding-left: 0;
+    }
+
+  }
+}
+
+#footer-left {
+  border-right: 1px solid #ccc;
+
+  .widget {
+    text-align: right;
+    padding: 0 20px 20px 20px;
+    margin: 20px 0;
+
+    @media(max-width:991px) {
+      text-align: left;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    p {
+      font-size: 0.8em;
+    }
+
+    .social-media {
+      display: inline-block;
+    }
+
+    .social-media a > img {
+      width: 15%;
+      height: auto;
+      padding-left: 14px;
+      @media(max-width:991px) {
+        padding-left: 0;
+      }
+    }
+  }
+
+  @media(max-width:991px) {
+    text-align: left;
+    padding-right: 0;
+    border-right: none;
+    margin-bottom: 0;
+    border-bottom: 1px solid #ccc;
+  }
+
+}
+
+
+
+// .footer-sidebar {
+//   padding: 20px;
+// }
+// // #footer-sidebar  {
+// //   // display: flex;
+// //   margin: auto;
+// //   // max-width: 960px;
+// //   min-height: 250px;
+// //   background-color: black;
+// //   // justify-content: center;
+// //   color: #ccc;
+// //   padding: 20px 0;
+// // }
+
+// // #footer-left {
+  
+// //   padding-left: 10px;
+// // }
+// // #footer-right {
+// //   text-align: left;
+// //   ul {
+// //     list-style: none;
+// //   }
+// // }
+
+
+
+// .right-footer-widget {
+//   text-align: left;
+//   padding-left: 1.2em;
+//   border-left: 1px solid #ccc;
+//   ul {
+//     list-style: none;
+//   }
+// }
+
+
+
+
+
+
+
+// #menu-footer  {
+//   padding-left: 0;
+//   li {
+//     list-style-type: none;
+//     text-align: left;
+//   }
+//   @media(max-width:991px) {
+//     display: flex;
+//     margin-left: 16px;
+//   }
+// }
+
+// .sub-menu {
+
+// }
+
+// .fearless-logo {
+//   max-width: 500px;
+//   float: left;
+//   clear: both;
+//   margin-top: 20px;
+// }
+
+
+
+// #menu-footer.menu {
+//   ul {
+//     margin-bottom: 30px;
+//   }
+// }
+
+// .menu-footer-container {
+//   @media(max-width:480px) {
+//     display: flex;
+//     margin-left: 12px;
+//   }
+// }

@@ -1,0 +1,75 @@
+// Variables
+
+//## UT Dallas colors
+$utd-flame-orange:   #C75B12;
+$utd-eco-green:      #008542;
+$utd-solar-orange:   #E98300;
+$utd-spark-orange:   #FFB612;
+$utd-seedling-green: #C9DD03;
+$utd-sapling-green:  #69BE28;
+$utd-sky-blue:       #5BC6E8;
+$utd-stratos-blue:   #00A1DE;
+$utd-space-blue:     #0039A6;
+
+$utd-warm-gray2:     #D5D2CA;
+$utd-warm-gray4:     #B7B1A9;
+$utd-warm-gray6:     #A59D95;
+$utd-warm-gray8:     #8B8178;
+$utd-warm-gray10:    #766A62;
+
+//## Fonts
+$font-family-sans-serif: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$fa-font-path: "fonts";
+
+//## Theme colors
+$gray-dark:          #333333;
+$gray-light:         #696969;
+$gray-light2:        #d5d6d7;
+$gray-lighter:       #f7f7f6; 
+$gray-lightest:      #f9f9f9; 
+
+$sapling-green: $utd-sapling-green;
+$warm-gray-2: $utd-warm-gray2;
+$brand-primary: $utd-eco-green;
+
+//## Media queries breakpoints
+$screen-lg:                  1200px;
+$screen-lg-min:              $screen-lg;
+
+$screen-md-max:              ($screen-lg-min - 1);
+$screen-md:                  992px;
+$screen-md-min:              $screen-md;
+
+$screen-sm-max:              ($screen-md-min - 1);
+$screen-sm:                  768px;
+$screen-sm-min:              $screen-sm;
+
+$screen-xs-max:              ($screen-sm-min - 1);
+$screen-xs:                  480px;
+$screen-xs-min:              $screen-xs;
+
+
+//## Grid system
+$grid-gutter-width: 30px;
+
+//## Others
+
+//** Background color for `<body>`.
+$body-bg:               #fff;
+//** Global text color on `<body>`.
+$text-color:            $gray-dark;
+//** Global textual link color.
+$link-color:            $brand-primary;
+//** Link hover color set via `darken()` function.
+$link-hover-color:      $utd-flame-orange;
+//** Link hover decoration.
+$link-hover-decoration: none;
+//** Border color for inputs on focus
+$input-border-focus: $utd-eco-green;
+//** padding
+$padding-base-vertical: 6px;
+$padding-base-horizontal: 12px;
+
+$border-radius-base:  0;
+$border-radius-large: 0;
+$border-radius-small: 0;

@@ -1,0 +1,62 @@
+/* Posts */
+.single {
+	.postFeaturedImage img {
+	    width: 100%;
+			height: auto;
+			margin-left: -15px;
+      @media(max-width:600px) {
+        margin-left: 0;
+      }
+	}
+
+	.postHeader {
+		margin-top: 20px;
+		background-color: $gray-lighter;
+		margin-left: 30px;
+		width: 98%;
+		display: flex;
+		align-items: center;
+    @media(max-width:600px) {
+      flex-direction: column;
+    }
+	}
+
+	.postImage {
+		width: 65%;
+		float: left;
+	}
+
+	.postTitle {
+		position: relative;
+		padding: 30px;
+		text-align: left;
+		color: $gray-dark;
+		h1 {
+			font-weight: bold;
+      @media(max-width:600px) {
+        font-size: 30px;
+      }
+		}
+		h4 {
+			color: $utd-flame-orange;
+		}
+	}
+
+	.postContent{
+		margin: 50px 180px;
+    @media(max-width:$screen-xs) {
+      margin: 20px 10px;
+    }
+	}
+
+	@media only screen and (max-width:$screen-sm) {
+		.postHeader {
+			margin: 10px;
+		}
+		.postTitle {
+			padding: 5px 15px 15px 15px;
+			margin-top: 0;
+		}
+	}
+}
+

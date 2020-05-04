@@ -1,0 +1,32 @@
+/*!
+Theme Name: Nanotech
+Author: Alyssa, UT Dallas Research Information Systems
+Author URI: https://research.utdallas.edu/oris
+Description: Nanotech website design converted to wordpress template
+Version: 1.0.0
+License: MIT
+License URI: https://opensource.org/licenses/MIT
+Text Domain: nanotech
+Tags: bootstrap
+*/
+
+@import 'variables';
+
+// Bootstrap
+@import "../../../../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
+// Font Awesome
+@import "../../../../../node_modules/font-awesome/scss/font-awesome";
+
+
+@import 'header';
+@import 'sidebar';
+@import 'tables';
+@import 'footer';
+@import 'posts';
+@import 'pages';
+@import 'search';
+@import 'blog';
+@import 'basics';
+@import 'core';
+@import 'homepage';
