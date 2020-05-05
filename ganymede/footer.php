@@ -24,6 +24,7 @@
 </footer>
 
 <?php wp_footer(); ?>
-</main>
+</div><!-- #primary -->
+
 <!-- </body> -->
 <!-- </html> -->

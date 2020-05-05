@@ -2741,6 +2741,7 @@ h2.microsite a:hover::after, h3.microsite a:hover::after {
 	overflow: hidden;
 	border-bottom: none;
   width: 100%;
+  padding-left: 10px;
 }
 .microsite-nav a:hover{
 	color: #e87500;
